@@ -1,5 +1,5 @@
-#ifndef LIST_HPP
-#define LIST_HPP
+#ifndef LINKEDLIST_HPP
+#define LINKEDLIST_HPP
 
 #include <iostream>
 #include "Node.hpp"
@@ -50,4 +50,4 @@ public:
     }
 };
 
-#endif LIST_HPP
+#endif LINKEDLIST_HPP
