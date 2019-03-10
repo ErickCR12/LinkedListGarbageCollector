@@ -13,6 +13,8 @@ int main() {
     list->printList();
     collector->printCollector();
 
+    cout<<"________________________"<<endl;
+
 
     Node* nodeToDelete = list->searchNode(2);
     cout << "\n\nDeleting node: [" << nodeToDelete->getData() << " | " << nodeToDelete << "]" << endl;
@@ -20,16 +22,23 @@ int main() {
     list->printList();
     collector->printCollector();
 
+    cout<<"________________________"<<endl;
+
     Node* nodeToDelete2 = list->searchNode(0);
     cout << "\n\nDeleting node: [" << nodeToDelete2->getData() << " | " << nodeToDelete2 << "]" << endl;
     list->deleteNode(0);
     list->printList();
     collector->printCollector();
 
+    cout<<"________________________"<<endl;
+
     cout << "\n\nAdding element to list: 4"<<endl;
     list->addHead(4);
     list->printList();
     collector->printCollector();
+
+    cout<<"________________________"<<endl;
+
 
     cout << "\n\nAdding element to list: 5"<<endl;
     list->addHead(5);
